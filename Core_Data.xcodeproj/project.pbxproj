@@ -13,6 +13,7 @@
 		6C703D5820C907B300BE8067 /* Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C703D5620C907B300BE8067 /* Core_Data.xcdatamodeld */; };
 		6C703D5A20C907B400BE8067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C703D5920C907B400BE8067 /* Assets.xcassets */; };
 		6C703D5D20C907B400BE8067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C703D5B20C907B400BE8067 /* LaunchScreen.storyboard */; };
+		6C703D6520C907D100BE8067 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C703D6420C907D100BE8067 /* CoreDataHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6C703D5920C907B400BE8067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C703D5C20C907B400BE8067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C703D5E20C907B400BE8067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C703D6420C907D100BE8067 /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				6C703D4F20C907B300BE8067 /* AppDelegate.swift */,
 				6C703D5120C907B300BE8067 /* ViewController.swift */,
+				6C703D6420C907D100BE8067 /* CoreDataHandler.swift */,
 				6C703D5320C907B300BE8067 /* Main.storyboard */,
 				6C703D5920C907B400BE8067 /* Assets.xcassets */,
 				6C703D5B20C907B400BE8067 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C703D5220C907B300BE8067 /* ViewController.swift in Sources */,
+				6C703D6520C907D100BE8067 /* CoreDataHandler.swift in Sources */,
 				6C703D5020C907B300BE8067 /* AppDelegate.swift in Sources */,
 				6C703D5820C907B300BE8067 /* Core_Data.xcdatamodeld in Sources */,
 			);
@@ -284,7 +288,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Core_Data/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Brainmobi.Core-Data";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,7 +307,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Core_Data/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Brainmobi.Core-Data";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
